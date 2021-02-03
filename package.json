@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.7.2",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "scripts": {
+    "start": "postcss input.css -o output.css"
+  }
+}
