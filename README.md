@@ -3,7 +3,7 @@
 ```
 $ yarn
 $ yarn start
-$ cat output.css | grep "[object Object]"
+$ cat output.css | grep "\[object Object\]"
 ```
 
 The generated output.css file contains e.g. this css:
