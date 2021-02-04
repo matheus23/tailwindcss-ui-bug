@@ -1,4 +1,8 @@
-# How to reproduce
+# Update
+
+This issue occurs when using the `@tailwindcss/ui` plugin together with tailwindcss version 2.0. The 2.0 version made the ui plugin redundant, though, so just removing it will solve this issue. :+1:
+
+## How to reproduce
 
 ```
 $ yarn
